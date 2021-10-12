@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/********* Header Start *****/
+header{
+    background-color: rgb(149, 86, 209);
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    font-size: 16px;
+    padding: 0 0 5px 0;
+    display: unset;
+}
+.nav-link a:hover{
+    color: black;
+}
+.navbar-brand img{
+    width: 100px;
+}
+/* .active-home{
+    border-bottom: 2px solid white;
+} */
+.nav-link:hover{
+    border-bottom: 2px solid white;
+}
+.banner{
+    margin-top: 8%;
+}
+.banner h1{
+    color: #fff;
+    font-size: 46px;
+    font-weight: 700;
+    margin: 80px 0 20px;
+}
+.banner p{
+    color: rgb(241, 223, 223);
+    margin-bottom: 40px;
+}
+.banner img{
+    max-height: 520px;
+}
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: rgb(255, 0, 255);
+    text-decoration: none;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.banner a:hover{
+    background: cornsilk;
+    color: black;
+    text-decoration: none;
+}
+/********* Header Ends *******/
+
+/********** Services ********/
+.service{
+    margin: 75px 0;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subtitle{
+    font-size: 18px;
+    text-align: center;
+}
+.row{
+    margin-top: 50px;
+}
+.col-md-4 img{
+    width: 45px;
+}
+.fa-arrow-right{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.service-box{
+    margin-top: 20px;
+}
+.service-box h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.service-box p{
+    font-size: 14px;
+}
+.service-box:hover{
+    background-color: rgb(83, 83, 236);
+    border-radius: 10px;
+    padding: 10px;
+    color: cornsilk;
+    box-shadow: 3px 0 4px gray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/************** Feature *********/
+.feature{
+    margin-top: 100px;
+}
+.feature img{
+    max-width: 77%;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.feature h2{
+    font-weight: bold;
+    font-size: 37px;
+}
+.feature h3{
+    margin-top: 150px;
+    font-size: 30px;
+}
+.feature a{
+    width: 170px;
+    border: 1px solid rgb(124, 16, 201);
+    padding: 10px 15px;
+    color: rgb(38, 0, 255);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.feature a:hover{
+    background-color: rgb(124, 16, 201);
+    color: ivory;
+    text-decoration: none;
+    box-shadow: 0 0 8px gray;  
+}
+/********* Explore ******/
+.explore{
+    margin-top: 100px;
+}
+.explore h2{
+    font-weight: bold;
+    font-size: 37px;
+}
+.explore h3{
+    margin-top: 120px;
+    font-weight: 500;
+}
+.explore img{
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+.explore a{
+    width: 170px;
+    border: 1px solid rgb(124, 16, 201);
+    padding: 10px 15px;
+    color: rgb(38, 0, 255);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.explore a:hover{
+    background-color: rgb(124, 16, 201);
+    color: ivory;
+    text-decoration: none;
+    box-shadow: 0 0 8px gray;  
+}
+.review-section{
+    margin-top: 40px;
+}
+.review-section img{
+    width: 150px;
+    margin-left: 500px;
+}
+.review-section div.pera{
+    margin-top: -20px;
+    margin-left: 70px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 0 8px gray;
+    width: 1000px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.review-section div.pera p{
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+.review-section div.pera .fast{
+    margin-left: 430px;
+    margin-top: -15px;
+}
+.review-section div.pera p.own{
+    margin-top: -5px;
+    margin-left: -9px;
+}
+.footer{
+    background-color: rgb(34, 34, 240);
+}
+.footer h2{
+    text-align: center;
+    color: cornsilk;
+    padding: 30px;
+}
+.last-item{
+    text-align: center;
+    padding: 10px;
+}
+.last-item input{
+    color: white;
+    border: 0;
+    width: 50%;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+.last-item button{
+    margin-top: 10px;
+}
+::placeholder{
+    color: rgb(159, 158, 199);
+}
+.last-item p{
+    font-size: 14px;
+    margin-top: 30px;
+    font-style: italic;
+    color: white;
+}
